@@ -15,6 +15,12 @@ Study and automate the deployment of a static website to **Amazon S3** using **A
 - **AWS CodeBuild**
 - **Amazon S3**
 
+#### Build Logs in **AWS CodeBuild:**
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/c1b47469-7609-4795-a0f4-9eed3d116e59" />
+</div>
+
 #### Execution History in **AWS CodePipeline:**
 
 <div align="center">
