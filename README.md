@@ -5,6 +5,15 @@ This repository contains a **static website** created by [Designmodo Slides](htt
 #### **Objective**
 Study and automate the deployment of a static website to **Amazon S3** using **AWS CodePipeline**, which automatically deploys the site whenever there is a **push** to the GitHub repository.
 
+#### **Architecture Pipeline**
+
+```plaintext
+[GitHub Repository] 
+       |
+       v
+[AWS CodePipeline] ----> [AWS CodeBuild] ----> [Amazon S3 Bucket]
+```
+
 #### **How It Works**
 - **AWS CodePipeline** monitors the GitHub repository.
 - Upon receiving a **push**, it automatically deploys to **Amazon S3**.
@@ -39,7 +48,17 @@ Este repositório contém um **site estático** criado por [Designmodo Slides](h
 #### **Objetivo**
 Estudar e automatizar o deploy de um site estático no **Amazon S3** usando **AWS CodePipeline**, que realiza o deploy automaticamente toda vez que há um **push** no repositório GitHub.
 
+#### **Arquitetura do Pipeline**
+
+```plaintext
+[GitHub Repository] 
+       |
+       v
+[AWS CodePipeline] ----> [AWS CodeBuild] ----> [Amazon S3 Bucket]
+```
+
 #### **Como Funciona**
 - O **AWS CodePipeline** monitora o repositório GitHub.
 - Ao receber um **push**, ele faz o **deploy automático** para o **Amazon S3**.
+- [Guia para criação do pipeline](configurando-pipeline.md)
 - [Website no S3](http://joaonolasco.s3-website-us-east-1.amazonaws.com/)
