@@ -17,6 +17,7 @@ Study and automate the deployment of a static website to **Amazon S3** using **A
 #### **How It Works**
 - **AWS CodePipeline** monitors the GitHub repository.
 - Upon receiving a **push**, it automatically deploys to **Amazon S3**.
+- [Guide to Creating the Pipeline](setting-up-pipeline.md)
 - [Website on S3](http://joaonolasco.s3-website-us-east-1.amazonaws.com/)
 
 #### **Technologies Used**
